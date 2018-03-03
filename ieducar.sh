@@ -2,7 +2,6 @@
 sudo apt-get update && sudo apt-get dist-upgrade -y
 sudo apt-get install curl php-curl git-core apache2 libapache2-mod-php php-pgsql php-pear rpl -y
 sudo apt-get install postgresql postgresql-client -y
-cd ~/Downloads
 wget https://s3-us-west-2.amazonaws.com/portabilis2/public/ieducar/ieducar.backup.gz (https://s3-us-west-2.amazonaws.com/portabilis2/p
 /ieducar.backup.gz)
 gunzip ieducar.backup.gz
